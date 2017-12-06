@@ -1,45 +1,57 @@
-p {
-  color: #555;
-  line-height: 2.6em;
+html, body {
+  font-family: 'Open Sans', sans-serif;
 }
 
-h1, h3 {
+p {
+  color: #555;
+  line-height: 2em;
+}
+
+h1, h2 {
   font-family: 'Indie Flower', cursive, sans-serif;
   color: #fff;
 }
 
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
 .header {
   position: relative;
-  background: url('images/001-s.jpg') no-repeat center;
+  min-height: 70vh;
+  margin-bottom: 10vh;
+  background: url('images/header.jpg') no-repeat center;
   background-size: cover;
-  min-height: 60vh;
 }
 
 .cover {
   position: absolute;
-  bottom: 2%; left:0; right: 0;
+  bottom: 80px; left:0; right: 0;
   text-align: center;
 }
 
 .cover p {
+  display: inline-block;
   color: #fff;
-  letter-spacing: 0.3em;
-  font-size: 1.2em;
-  width: 7.4em;
-  margin: auto;
-  border-style: solid none;
-  line-height: 1.6em;
+  letter-spacing: 0.5em;
+  font-size: 1.25em;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
 }
 
 .background {
   position: relative;
   padding-bottom: 50vh;
-  background: url('images/bg-bottom.jpg') no-repeat center bottom;
+  background: url('images/backdrop.jpg') no-repeat center bottom;
   background-size: contain;
 }
 
 .background-map {
-  background: url('images/bg-top.png') no-repeat top right;
+  background: url('images/map.png') no-repeat top right;
 }
 
 article p:nth-child(2) {
@@ -50,10 +62,6 @@ article p:nth-child(2) {
   font-family: 'Indie Flower', cursive, sans-serif;
   font-size: 1.3em;
   line-height: 1.2em;
-}
-
-.spacing {
-  height: 14em;
 }
 
 .music {
@@ -72,20 +80,10 @@ article p:nth-child(2) {
 }
 
 footer {
+  padding: 60px 0 40px 0;
   background-color: #99a357;
-  height: 10em;
 }
 
-.footer-info {
-  position: absolute;
-  width: 100%;
-}
-
-.footer-info h3{
-  margin-top: 2em;
-}
-
-.footer-info p{
+footer p {
   color: #fff;
-  line-height: 0.5em;
 }

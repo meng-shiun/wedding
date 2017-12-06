@@ -11,7 +11,7 @@ var ap = new APlayer({
     music: {                                                           // Required, music info, see: ###With playlist
         title: 'Galway Bay',                                          // Required, music title
         author: 'Celtic Woman',                          // Required, music author
-        url: 'GalwayBay.mp3',  // Required, music url
+        url: 'assets/GalwayBay.mp3',  // Required, music url
         pic: 'images/album.jpg '  // Optional, music picture
         // lrc: '[00:00.00]lrc here\n[00:01.00]aplayer'                   // Optional, lrc, see: ###With lrc
     }
